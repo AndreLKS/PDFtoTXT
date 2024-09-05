@@ -1,0 +1,325 @@
+
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+Informações do Projeto
+Sistema Tela de Apontamento WEB
+Consultor:  Luan Tavares
+Área Manufatura
+Módulo Apontamento WEB
+A   tela   de   apontamento   WEB   é   dividida   em   módulos,   sendo   eles   Manufatura,   Serviços, 
+Suprimentos   e   Qualidade.   Dentro   de   cada   módulo   há   várias   funcionalidades.   A   seguir, 
+apresentamos as funcionalidades existentes no módulo Manufatura.
+_____________________________________________________________________
+Processo: Manufatura
+Caminho: Apontamento WEB / Manufatura
+Procedimentos:
+1Apontar OP:  Esta opção de menu só estará ativa caso o operador tenha a permissão 
+“Libera Menu Apontamento Produção” assinalada como S. Ao clicar neste menu, abre-
+se todos os estágios configurados para o operador em “Configurações Por Operador → 
+Estágios Liberados”. Ao clicar em um estágio, são apresentadas as OPs que estão 
+Liberadas ou em Andamento no estágio em questão. 
+◦Para   cada   OP,   é   apresentado   as   seguintes   informações,   Origem,   OP,   Produto, 
+Derivação, Pedido, Cliente, Progresso. 
+◦Caso a OP seja de reposição de estoque, ou seja, que não tem vínculo com o pedido, a 
+coluna pedido será 0 e a coluna cliente não será carregada. 
+◦A coluna progresso só avança conforme há conclusão de todas as etapas de produção, 
+ou seja, apenas quando o produto acabado der entrada no estoque.
+◦A coluna progresso mostra a soma das quantidades de 1ª, 2ª, 3ª qualidade e refugo.
+Página 1 de 14
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+◦São apresentados para cada OP 6 possíveis botões, que vão variar de acordo com as 
+permissões do operador.
+◦É possível pesquisar nesta tela por OP, Pedido e Cliente, facilitando assim a localização 
+da OP.
+◦Produção: Ao clicar neste botão, abre a tela de apontamento de produção com a OP 
+selecionada.
+◦Defeito: Ao clicar neste botão, abre a tela de apontamento de defeito de produção 
+com a OP selecionada.
+◦Parada: Ao clicar neste botão, abre a tela de apontamento de parada.
+◦Inspeção:  Ao clicar neste botão, abre a tela de inspeção com o plano de inspeção 
+relacionado ao roteiro da OP selecionada.
+◦Imprimir: Ao clicar neste botão, imprime o relatório definido no parâmetro “Rel. OP”.
+◦Consultar: Ao clicar neste botão, abre a tela de acompanhamento de produção da OP 
+selecionada.
+2Baixar Componentes: Esta opção de menu só estará ativa caso o operador tenha a 
+permissão “Libera Menu de Baixa de Componentes”  assinalada como S. Ao clicar 
+neste menu, abre-se todos os estágios configurados para o operador em “Configurações 
+Por Operador    Estágios Liberados”→. Ao clicar em um estágio, são apresentadas as 
+OPs que estão Liberadas ou em Andamento no estágio em questão. 
+◦Para   cada   OP,   é   apresentado   as   seguintes   informações,   Origem,   OP,   Produto, 
+Derivação, Pedido, Cliente, Progresso. 
+◦Caso a OP seja de reposição de estoque, ou seja, que não tem vínculo com o pedido, a 
+coluna pedido será 0 e a coluna cliente não será carregada. 
+Página 2 de 14
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+◦A coluna progresso só avança conforme há conclusão de todas as etapas de produção, 
+ou seja, apenas quando o produto acabado der entrada no estoque.
+◦A coluna progresso mostra a soma das quantidades de 1ª, 2ª, 3ª qualidade e refugo.
+◦São apresentados para cada OP 2 possíveis botões, que vão variar de acordo com as 
+permissões do operador.
+◦É possível pesquisar nesta tela por OP, Pedido e Cliente, facilitando assim a localização 
+da OP.
+◦Baixar: Ao clicar neste botão, abre a tela de baixa de componentes com a lista de 
+componentes a serem baixados da OP selecionada.
+◦Estornar:  Ao clicar neste botão, abre a tela de estorno de baixa, com todos os 
+componentes baixados da OP selecionada.
+3Mistura: Esta opção de menu só estará ativa caso o operador tenha a permissão “Libera 
+Menu Apontamento Mistura” assinalada como S. Ao clicar neste menu, abre-se todos 
+os estágios configurados para o operador em “Configurações Por Operador   Estágios→ 
+Liberados”. Ao clicar em um estágio, são apresentadas as OPs que estão Liberadas ou 
+em Andamento no estágio em questão.
+◦Para   cada   OP,   é   apresentado   as   seguintes   informações,   Origem,   OP,   Produto, 
+Derivação, Pedido, Cliente, Progresso. 
+◦Caso a OP seja de reposição de estoque, ou seja, que não tem vínculo com o pedido, a 
+coluna pedido será 0 e a coluna cliente não será carregada. 
+◦A coluna progresso só avança conforme há conclusão de todas as etapas de produção, 
+ou seja, apenas quando o produto acabado der entrada no estoque.
+◦A coluna progresso mostra a soma das quantidades de 1ª, 2ª, 3ª qualidade e refugo.
+◦É possível pesquisar nesta tela por OP, Pedido e Cliente, facilitando assim a localização 
+da OP.
+Página 3 de 14
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+
+◦Misturar: Ao clicar neste botão, abre a tela de Mistura baixa de componentes com a 
+lista de componentes a serem baixados da OP selecionada.
+4Ler Cód. Bar: Esta opção de menu só estará ativa caso o operador tenha a permissão 
+“Libera   Apt.   Produção   via   Cod.   Barras”  assinalada   como   S.   Esta   funcionalidade 
+permite fazer o apontamento de produção de forma mais ágil através de leitura de códigos 
+de barras. O processo se resume a identificar o operador através de um código de 6 
+posições que deve ser o código do operador, posterior a isso, basta informar os dados da 
+OP no seguinte formato RRROOOOOOOTTTTSSSS onde: 
+◦R   Origem→
+◦O   OP→
+◦T   Estágio→
+◦S   Sequência do Roteiro→
+O apontamento sempre gravará a data e hora atual, ou seja, se o operador não tem 
+nenhum apontamento, lê seu crachá e posteriormente lê o código de barras da OP, o 
+sistema analisará a OP e sugerirá ao usuário a quantidade prevista da OP, o usuário 
+atualiza a quantidade a ser apontada e grava, neste momento a tela de apontamento 
+registra um apontamento de início para essa OP na data e hora atual. Quando o operador 
+ler novamente a mesma OP, será solicitado a quantidade e a data e hora final será a do 
+momento do apontamento. Ou seja, esta forma de apontar é mais ágil, porém te limita 
+quanto a escolha de parâmetros de apontamento.
+Página 4 de 14
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+5Reabilitar/Finalizar OP: Esta opção de menu só estará ativa caso o operador tenha a 
+permissão “Libera Menu Reabilitar/Finalizar OP?” assinalada como S. Neste menu é 
+possível   selecionar   uma   Origem   e   OP   da   empresa   logada   e   caso   a   mesma   esteja 
+finalizada, permite reabilitar, caso esteja aberta, permite forçar o fim da mesma.
+6Consultas: Neste menu tem-se duas opções consulta de movimentos de OP e consulta de 
+paradas. 
+◦Na opção de consulta de movimentos, é possível filtrar o operador, a data de início e 
+data de fim. Ao clicar no botão Buscar, são apresentados os apontamentos realizados 
+de acordo com os filtros informados.
+◦Na opção de apontamentos de paradas, é possível filtrar por estágio, data de inicio e 
+data fim, bem como escolher se deseja ver apenas os movimentos de parada em 
+aberto, ou seja, paradas apenas com o movimento de inicio registradas.
+Página 5 de 14
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+Dentro do módulo manufatura, temos algumas funcionalidades que precisam de mais detalhes, 
+como é o caso do apontamento de produção.
+_____________________________________________________________________
+Processo: Apontamento de Produção
+Caminho: Apontamento WEB / Manufatura / Apontar OP
+A configuração padrão de apontamento de uma OP é a seguinte:
+São   apresentadas   algumas   informações   da   OP   como   número   produto   e   derivação   sendo 
+produzido, o cliente, caso a OP tenha nascido de um pedido e o seu progresso.
+Ao abrir a tela de apontamento de OP já são carregadas também o estágio, o operador vinculado 
+ao usuário logado, a data de início e fim como a data atual, e a hora fim com a hora atual. Caso o 
+estágio tenha uma única sequência, a mesma também já vem selecionada automaticamente. O 
+objetivo é facilitar para o usuário ter que informar a menor quantidade de informações possíveis, 
+tendo que alterar apenas quando for necessário.
+ 
+Procedimentos:
+Página 6 de 14
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+1Informar sequência: O sistema já mostrará só as sequências cadastradas para o estágio 
+desta OP. Ao selecionar, automaticamente será mostrado a operação vinculada a esta 
+sequência operacional.
+7Selecionar o operador: O sistema já sugere o operador logado, caso o usuário esteja 
+apontando para outro operador, o mesmo pode alterar selecionando no dropbox.
+8Selecionar o turno: O sistema já sugere o turno cadastrado no operador vinculado ao 
+usuário, caso não tenha turno, ele deixará em branco. Caso o operador precise alterar, 
+basta selecionar o turno desejado.
+9Selecionar o Centro de Recurso: O operador precisa selecionar qual máquina ele está 
+apontando, a tela mostra as opções cadastradas sem especificação de estágio, ou as que 
+estão são vinculadas ao estágio selecionado (E725CRE.CodEtg).
+10Informar início e fim da produção: O operador pode optar por apontar apenas o início 
+da OP, desta forma deixando zerado a data e hora fim da OP, ou pode apontar ambos ao 
+mesmo tempo.
+11Informar a quantidade apontada: Informar quantos produtos de 1ª qualidade foram 
+produzidos na unidade de medida padrão do produto.
+12Informar   Observação:  Caso   o   operador   deseje,   pode   adicionar   uma   informação 
+referente ao apontamento.
+13Finalizar OP:  Ao marcar essa opção, e se o apontamento for da última sequência 
+operacional, é possível forçar o fim da OP.
+14Salvar Apontamento: Ao clicar nesse botão os dados informados anteriormente serão 
+validados e os campos estando devidamente preenchidos, o apontamento é realizado. 
+Neste   momento   serão   realizadas   as   consistências   nativas   do   ERP,   podendo   haver 
+bloqueios, caso ocorra algum, uma mensagem será apresentada contendo o motivo do 
+bloqueio.
+15Salvar Apontamento (Manter Dados): Esta função executa a mesma tratativa que a 
+Salvar Apontamento, porém mantém os dados informados, como sequência, centro de 
+recurso.
+16Limpar/Cancelar: Limpa os dados selecionados
+17Grid de Apontamentos: Ao clicar neste botão, abre-se uma tela mostrando 4 abas
+◦Produção: São apresentados todos os apontamentos de produção realizados nesta OP
+◦Defeito: São apresentados todos os defeitos apontados nesta OP
+◦Parada: São apresentados todas as paradas apontadas nesta OP
+◦Componentes: São apresentados todos os componentes da OP e seus respectivos 
+consumos.
+Caso o usuário tenha a permissão para realizar estorno de apontamento, será apresentada 
+a coluna Estornar nas 3 primeiras abas, permitindo estornar os apontamentos.
+Página 7 de 14
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+_____________________________________________________________________
+Processo: Apontamento de Produção
+Caminho: Apontamento WEB / Manufatura / Apontar Defeito
+A configuração padrão de apontamento de defeito é muito semelhante ao apontamento de OP, a 
+única diferença é que em vez de informar a quantidade de 1ª qualidade, o operador precisa 
+informar a quantidade de 2ª qualidade, 3ª qualidade e refugo, de acordo com a parametrização 
+da origem do produto da OP no ERP. Caso na origem não controla refugo nem 2ª ou 3ª 
+qualidade, nenhum campo estará disponível.
+Procedimentos:
+1Informar quantidade (2ª, 3ª, Refugo): O sistema só mostrará os campos de acordo 
+com o parametrizado na origem.
+18Apontar   Defeitos:  Após   informar   a   quantidade   do   defeito,   é   necessário   escolher   o 
+motivo, é possível escolher até 10 motivos por apontamento, ou seja, se informado 50 no 
+campo qtd – Refugo, precisa informar quantos destes 50 são para cada motivo:
+Página 8 de 14
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+As demais funcionalidades seguem o padrão da tela Apontar OP.
+Página 9 de 14
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+_____________________________________________________________________
+Processo: Apontamento de Produção
+Caminho: Apontamento WEB / Manufatura / Apontar Parada
+Assim como no ERP, é possível apontar uma parada de duas formas, com ou sem OP. Para 
+alternar entre estes modos, basta alterar o flag no topo da tela:
+Procedimentos ao Apontar com OP:
+Página 10 de 14
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+1Informar a Sequência operacional: O sistema só mostrará as opções de acordo com a 
+OP.
+19Informar Centro de Recurso:  Selecionar a máquina em que se deseja registrar a 
+parada.
+20Informar o Motivo da Parada: Selecionar os motivos cadastrados na rotina nativa do 
+ERP.
+21Informar o Operador: Selecionar o operador da OP no momento da parada.
+22Informar o Turno: Selecionar o turno do em que a parada ocorreu.
+23Informar Início e fim da Parada: Assim como o apontamento de produção, é possível 
+apontar apenas o início da parada ou ambos.
+24Salvar/Solicitar: Efetiva a parada no ERP.
+Procedimentos ao Apontar sem OP:
+Página 11 de 14
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+1Informar Centro de Recurso:  Selecionar a máquina em que se deseja registrar a 
+parada.
+25Informar o Motivo da Parada: Selecionar os motivos cadastrados na rotina nativa do 
+ERP.
+26Informar o Operador: Selecionar o operador da OP no momento da parada.
+27Informar o Turno: Selecionar o turno do em que a parada ocorreu.
+28Informar Início e fim da Parada: Assim como o apontamento de produção, é possível 
+apontar apenas o início da parada ou ambos.
+29Salvar/Solicitar: Efetiva a parada no ERP.
+_____________________________________________________________________
+Processo: Baixar Componentes
+Caminho: Apontamento WEB / Manufatura / Baixar Componentes
+Ao abrir a tela de baixa de componentes, todos os componentes da OP serão mostrados, caso o 
+operador tenha permissão de adicionar componentes, os campos Produto Derivação e o botão 
+Adicionar Componente estarão habilitados:
+Procedimentos:
+1Adicionar Componente: Caso seja necessário adicionar um componente não previsto na 
+OP, basta selecioná-lo no campo de produto e derivação e clicar no botão Adicionar 
+Componente.
+30Selecionar o lote: Caso o componente controle lote, o botão “+” estará habilitado, e o 
+usuário deve informar o lote que deseja baixar e a quantidade. Existe a possibilidade de o 
+usuário usar o botão carregar todos os lotes ou informar especificamente o lote que 
+desejar. Importante ressaltar que se o cliente desejar usar a opção de buscar todos os 
+lotes disponíveis, ele precisa remover os lotes que não terão movimentação.
+Página 12 de 14
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+31Informar a quantidade a baixar: Caso o componente não controle lote, é necessário 
+digitar a quantidade que deve ser baixada.
+32Integrar/Salvar: Efetiva a baixa dos componentes com quantidade maior que zero.
+_____________________________________________________________________
+Processo: Estornar Componentes
+Caminho: Apontamento WEB / Manufatura / Baixar Componentes
+Ao abrir a tela de baixa de estorno de componentes, são apresentados todos os componentes da 
+OP serão mostrados:
+Procedimentos:
+Página 13 de 14
+
+DRO_APT_WEB_Manufatura
+DOCUMENTO DE ROTINA OPERACIONAL - DRO
+Versão 1.0
+Data da Revisão
+22/06/2021
+1Informar a quantidade a estornar: Digitar a quantidade que se deseja estornar.
+33Estornar: Ao clicar neste botão, o sistema buscará a baixa mais antiga realizada e lançará 
+uma entrada no estoque com a transação definida no ERP na data da baixa.
+Página 14 de 14
